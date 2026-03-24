@@ -2675,7 +2675,7 @@ div {
       flex-wrap: wrap;
 }
 .header .navbar-logo img {
-  max-width: 160px;
+  max-width: 100%;
   height: 36px;
 }
 .header .navbar__menu {
@@ -13316,12 +13316,12 @@ div {
 }
 .pg-four .btn--primary {
   border: 1px solid var(--black) !important;
-  background-color: var(--base-color);
+  background-color: #009639 !important;
   font-weight: 600;
   border-radius: 40px;
 }
 .pg-four .btn--primary::before, .pg-four .btn--primary::after {
-  background-color: #fbda33;
+  background-color: #009639 !important;
   border-radius: 0px;
 }
 .pg-four .cta {

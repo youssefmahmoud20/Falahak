@@ -3,14 +3,14 @@ import ContactOne from "@/components/ContactOne";
 import CtaSectionTwo from "@/components/CtaSectionTwo";
 import DifferenceTwo from "@/components/DifferenceTwo";
 import FaqOne from "@/components/FaqOne";
-import FooterOne from "@/components/FooterOne";
+import FooterFour from "@/components/FooterFour";
 import GalleryOne from "@/components/GalleryOne";
-import HeaderOne from "@/components/HeaderOne";
+import HeaderFour from "@/components/HeaderFour";
 import HelpOne from "@/components/HelpOne";
 import Preloader from "@/components/Preloader";
 import TeamTwo from "@/components/TeamTwo";
 import TestimonialOne from "@/components/TestimonialOne";
-import TopBarOne from "@/components/TopBarOne";
+import TopBarFour from "@/components/TopBarFour";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
@@ -30,10 +30,10 @@ const page = () => {
         <CustomCursor />
 
         {/* TopBarOne */}
-        <TopBarOne />
+        <TopBarFour />
 
         {/* HeaderOne */}
-        <HeaderOne />
+        <HeaderFour />
 
         {/* BreadcrumbOne */}
         <BreadcrumbOne title='About Us' />
@@ -63,7 +63,7 @@ const page = () => {
         <GalleryOne />
 
         {/* FooterOne */}
-        <FooterOne />
+        <FooterFour />
       </section>
     </AOSWrap>
   );

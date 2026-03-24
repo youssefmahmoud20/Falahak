@@ -141,7 +141,7 @@
     border-radius: 40px;
     &::before,
     &::after {
-      background-color: #fbda33;
+      background-color: #009639;
       border-radius: 0px;
     }
   }
@@ -425,13 +425,13 @@
   .btn--primary {
     color: var(--black) !important;
     border-color: var(--white) !important;
-    background-color: #fbda33;
+    background-color: #009639;
     &::before,
     &::after {
       background-color: var(--white);
     }
     :hover {
-      border-color: #fbda33 !important;
+      border-color: #009639 !important;
     }
   }
 
@@ -468,7 +468,7 @@
       height: 200px;
       border-radius: 24px;
       border: 1px solid #000;
-      background: #fbda33;
+      background: #009639;
       z-index: -1;
     }
     &::after {
@@ -588,7 +588,7 @@
     }
 
     .active {
-      background-color: #fbda33;
+      background-color: #009639;
       color: var(--black);
       border-color: var(--black);
     }
@@ -780,7 +780,7 @@
     a {
       width: 50px !important;
       height: 50px !important;
-      background-color: #fbda33;
+      background-color: #009639;
 
       i {
         font-size: 14px;
@@ -859,7 +859,7 @@
     margin-top: 30px;
     a {
       padding: 20px 36px;
-      background-color: #fbda33;
+      background-color: #009639;
       color: var(--black) !important;
     }
   }
@@ -997,7 +997,7 @@
 
   .tag-c {
     border: 1px solid var(--black) !important;
-    background-color: #fbda33;
+    background-color: #009639;
     border-radius: 0px;
     font-weight: 600;
     border-radius: 40px;
@@ -1180,7 +1180,7 @@
     margin-top: 30px !important;
 
     .slider-btn {
-      background-color: #fbda33;
+      background-color: #009639;
       color: var(--black);
       &:hover {
         background-color: var(--base-color);
@@ -1249,7 +1249,7 @@
 
   .testimonial__slider-single {
     padding: 60px 20px !important;
-    background-color: #fbda33;
+    background-color: #009639;
     border: 2px solid var(--black) !important;
     box-shadow: 0px -2px 38px 0px rgba(0, 0, 0, 0.07);
     border-radius: 12px;
@@ -1794,8 +1794,8 @@
     position: absolute;
     bottom: 40px;
     inset-inline-start: -30px;
-    border-top: 5px solid #fbda33;
-    border-bottom: 5px solid #ffae10;
+    border-top: 5px solid #009639;
+    border-bottom: 5px solid #009639;
     border-radius: 20px;
     z-index: 3;
     h5 {
@@ -1805,7 +1805,7 @@
       color: var(--white);
       text-transform: lowercase;
       span {
-        color: #ffae10;
+        color: #009639;
         font-weight: 700;
       }
     }
@@ -2345,7 +2345,7 @@
     min-width: 200px;
     width: 100%;
 
-    background: #fbda33;
+    background: #009639;
     h5,
     p {
       color: var(--black);
@@ -2451,7 +2451,7 @@
       position: absolute;
       top: 0px;
       left: 0px;
-      background-color: #fbda33;
+      background-color: #009639;
       width: 140px;
       height: 95px;
       border-bottom-right-radius: 150px;
@@ -3195,7 +3195,7 @@
     }
 
     .fc-testimonial .testimonial__slider-single {
-      background-color: #fbda33 !important;
+      background-color: #009639 !important;
 
       h6 {
         color: var(--black) !important;

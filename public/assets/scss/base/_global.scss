@@ -56,7 +56,7 @@ div {
   width: 30px;
   height: 30px;
   border: 1px solid var(--quaternary-color);
-  background-color: var(--quaternary-color);
+  background-color: #FF6F00;
   box-sizing: border-box;
   z-index: 10000000;
   opacity: 0.34;
@@ -96,7 +96,7 @@ div {
   width: 10px;
   height: 10px;
   z-index: 10000001;
-  background-color: var(--quaternary-color);
+  background-color: #009639;
   opacity: 1;
   transition: all 0.24s ease-out 0s;
 

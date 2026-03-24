@@ -6,7 +6,7 @@ import "./globals.scss";
 
 import InitializeAOS from "@/helper/InitializeAOS";
 import RouteScrollToTop from "@/helper/RouteScrollToTop";
-import ColorPalate from "@/helper/ColorPalate";
+// import ColorPalate from "@/helper/ColorPalate";
 
 export const metadata = {
   title: "Charifund | Nonprofit & Fundraising Charity NEXT JS Template",
@@ -53,11 +53,12 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/assets/css/box-layout.css" />
         <link rel="stylesheet" href="/assets/css/flag-icons.min.css" />
         <link rel="stylesheet" href="/assets/css/dark-mode.css" />
+        <link rel="stylesheet" href="/assets/css/brand-theme.css" />
       </head>
       <body suppressHydrationWarning={true}>
         <InitializeAOS />
         <RouteScrollToTop />
-        <ColorPalate />
+        {/* <ColorPalate /> */}
 
         {children}
 

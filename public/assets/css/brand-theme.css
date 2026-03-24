@@ -1,0 +1,208 @@
+:root {
+  --base-color: #009639;
+  --primary-color: #009639;
+  --secondary-color: #37474f;
+  --tertiary-color: #81d4fa;
+  --quaternary-color: #2962ff;
+  --hover-color: #ff6f00;
+  --template-color: #37474f;
+  --template-bg: #ffffff;
+  --white: #ffffff;
+  --black: #121212;
+  --senary-color: #f5f5f5;
+}
+
+/* General text + backgrounds */
+body {
+  color: #37474f;
+  background: #ffffff;
+}
+
+.section-bg,
+.gray-bg,
+.light-bg {
+  background-color: #f5f5f5 !important;
+}
+
+/* Links */
+a:hover,
+a:focus {
+  color: #ff6f00 !important;
+}
+
+/* Main buttons */
+.btn--primary,
+.common-btn,
+.theme-btn,
+button[type="submit"],
+input[type="submit"] {
+  background-color: #009639 !important;
+  border-color: #009639 !important;
+  color: #ffffff !important;
+}
+
+.btn--primary:hover,
+.common-btn:hover,
+.theme-btn:hover,
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background-color: #ff6f00 !important;
+  border-color: #ff6f00 !important;
+  color: #ffffff !important;
+}
+
+/* Outline / secondary buttons */
+.btn--secondary,
+.btn-outline,
+.common-btn--outline {
+  border-color: #009639 !important;
+  color: #009639 !important;
+}
+
+.btn--secondary:hover,
+.btn-outline:hover,
+.common-btn--outline:hover {
+  background-color: #009639 !important;
+  border-color: #009639 !important;
+  color: #ffffff !important;
+}
+
+/* Header / nav */
+.main-header,
+.header,
+.navbar-area,
+.mean__menu-wrapper {
+  background-color: #ffffff;
+}
+
+.main-header .nav-link,
+.main-header a,
+.navbar-area a {
+  color: #37474f !important;
+}
+
+.main-header .nav-link:hover,
+.main-header a:hover,
+.navbar-area a:hover,
+.main-header .active > a {
+  color: #009639 !important;
+}
+
+/* Accent items */
+i,
+svg path,
+.icon,
+.icon-box i {
+  transition: all 0.3s ease;
+}
+
+.icon-box:hover i,
+.feature:hover i,
+.service:hover i {
+  color: #009639 !important;
+}
+
+/* Section headings / small accent text */
+.sub-title,
+.section__content-sub-title,
+.eyebrow,
+.tagline {
+  color: #ff6f00 !important;
+}
+
+/* Cards */
+.card,
+.cause-card,
+.blog-card,
+.event-card,
+.team-card {
+  border-color: rgba(55, 71, 79, 0.08) !important;
+}
+
+/* Progress / highlighted bars */
+.progress-bar,
+.donation-progress-bar,
+.skillbar-bar {
+  background-color: #009639 !important;
+}
+
+/* Footer */
+.footer,
+.footer-area {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+.footer a,
+.footer-area a {
+  color: #e0e0e0 !important;
+}
+
+.footer a:hover,
+.footer-area a:hover {
+  color: #81d4fa !important;
+}
+
+/* Optional blue accent utility */
+.brand-blue {
+  color: #2962ff !important;
+}
+
+.brand-sky {
+  color: #81d4fa !important;
+}
+
+.brand-orange {
+  color: #ff6f00 !important;
+}
+
+.brand-green {
+  color: #009639 !important;
+}
+
+/* ===== HOME FOUR BUTTON/FEATURE COLOR FIXES ===== */
+
+/* Homepage tab buttons like "Check Your Causes" */
+.commit .commit__tab-btns .commit__tab-btn:hover,
+.commit .commit__tab-btns .active {
+  background-color: #009639 !important;
+  color: #ffffff !important;
+  border-color: #009639 !important;
+}
+
+/* Some home-four yellow highlighted items */
+.home-four .section__content-cta a,
+.home-four .video-btn,
+.home-four .progress-bar,
+.home-four .cause-card:hover .btn--primary,
+.home-four .community-card:hover .btn--primary {
+  background-color: #009639 !important;
+  border-color: #009639 !important;
+  color: #ffffff !important;
+}
+
+/* Hover color */
+.home-four .section__content-cta a:hover,
+.home-four .video-btn:hover,
+.home-four .cause-card .btn--primary:hover,
+.home-four .community-card .btn--primary:hover {
+  background-color: #ff6f00 !important;
+  border-color: #ff6f00 !important;
+  color: #ffffff !important;
+}
+
+/* Any yellow hardcoded section accents */
+.commit .commit__thumb-sm,
+.commit .video-btn,
+.community .community__thumb-small,
+.about-four .about-four-thumb-sm {
+  border-color: #009639 !important;
+}
+
+/* Dots / small accent circles */
+.commit .left-thumb::before,
+.commit .right-thumb::before,
+.about-four .about-four-thumb::before,
+.community-two .community-two__thumb::before {
+  background-color: #81d4fa !important;
+}

@@ -1,1 +1,76 @@
 @import "/public/assets/scss/main.scss";
+@import "../../public/assets/css/brand-theme.css";
+
+/* ===== GLOBAL FONT FIX - NUNITO SAFE VERSION ===== */
+
+/* Set the site font at the root only */
+html,
+body {
+  font-family: "Nunito", sans-serif !important;
+}
+
+/* Normal text elements */
+body,
+p,
+a,
+li,
+span,
+small,
+strong,
+em,
+label,
+input,
+textarea,
+select,
+button {
+  font-family: "Nunito", sans-serif !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif !important;
+}
+
+/* Buttons */
+.btn,
+.btn--primary,
+.btn--secondary,
+.btn--tertiary,
+.common-btn,
+.theme-btn {
+  font-family: "Nunito", sans-serif !important;
+}
+
+/* Force template alternate text styles back to Nunito */
+.caveat-font,
+[class*="caveat"],
+[class*="outfit"] {
+  font-family: "Nunito", sans-serif !important;
+}
+
+/* Restore Font Awesome explicitly */
+.fa,
+.fas,
+.far,
+.fab,
+.fa-solid,
+.fa-regular,
+.fa-brands {
+  font-family: "Font Awesome 6 Free" !important;
+}
+
+.fab,
+.fa-brands {
+  font-family: "Font Awesome 6 Brands" !important;
+}
+
+/* Restore Charifund custom icon font */
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  font-family: "charifund" !important;
+}

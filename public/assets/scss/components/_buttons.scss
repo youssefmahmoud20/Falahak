@@ -4,13 +4,14 @@
 
 .btn--primary {
   padding: 13px 24px;
-  background-color: var(--base-color);
-  color: var(--black);
+  background-color: #009639; // brand green
+  color: #ffffff;
   position: relative;
   font-weight: 800;
   z-index: 1;
   gap: 16px;
   overflow: hidden;
+  border-radius: 40px;
 
   svg {
     width: 25px;
@@ -18,33 +19,37 @@
   }
 
   path {
-    fill: black;
+    fill: white;
     transition: var(--transition);
   }
+
   &::before,
   &::after {
     content: "";
     position: absolute;
-    top: 0px;
-    bottom: 0px;
-    inset-inline-start: 0px;
+    top: 0;
+    bottom: 0;
+    inset-inline-start: 0;
     width: 50%;
     height: 100%;
     border-radius: inherit;
-    background-color: var(--base-color);
+    background-color: #009639;
     transition: var(--transition);
     z-index: -1;
   }
+
   &::after {
     inset-inline-start: unset;
-    inset-inline-end: 0px;
+    inset-inline-end: 0;
   }
+
   &:hover {
-    color: var(--white);
-    background-color: var(--quaternary-color);
+    color: #ffffff;
+    background-color: #ff6f00; // orange hover
     path {
       fill: white;
     }
+
     &::before,
     &::after {
       width: 0%;
@@ -52,10 +57,12 @@
   }
 }
 
+/* Secondary = outline style */
 .btn--secondary {
   padding: 13px 30px;
-  background-color: var(--secondary-color);
-  color: var(--white);
+  background-color: transparent !important;
+  color: #009639;
+  border: 2px solid #009639;
   position: relative;
   font-weight: 700;
   z-index: 1;
@@ -69,71 +76,57 @@
   }
 
   path {
-    fill: white;
+    fill: #009639;
     transition: var(--transition);
   }
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    inset-inline-start: 0px;
-    width: 50%;
-    height: 100%;
-    border-radius: 0px;
-    background-color: var(--secondary-color);
-    transition: var(--transition);
-    z-index: -1;
-  }
-  &::after {
-    inset-inline-start: unset;
-    inset-inline-end: 0px;
-  }
+
   &:hover {
-    color: var(--secondary-color);
-    background-color: var(--base-color);
+    color: #ffffff;
+    background-color: #009639;
+    border-color: #009639;
+
     path {
-      fill: var(--secondary-color);
-    }
-    &::before,
-    &::after {
-      width: 0%;
+      fill: white;
     }
   }
 }
 
+/* Tertiary = subtle / ghost */
 .btn--tertiary {
   padding: 13px 24px;
-  background-color: rgba(255, 255, 255, 0.04);
-  color: var(--white);
+  background-color: #f5f5f5;
+  color: #37474f;
   position: relative;
   font-weight: 800;
   z-index: 1;
   gap: 16px;
   overflow: hidden;
+  border-radius: 40px;
 
   &::before,
   &::after {
     content: "";
     position: absolute;
-    top: 0px;
-    bottom: 0px;
-    inset-inline-start: 0px;
+    top: 0;
+    bottom: 0;
+    inset-inline-start: 0;
     width: 50%;
     height: 100%;
     border-radius: inherit;
-    background-color: rgba(255, 255, 255, 0.04);
+    background-color: #f5f5f5;
     transition: var(--transition);
     z-index: -1;
   }
+
   &::after {
     inset-inline-start: unset;
-    inset-inline-end: 0px;
+    inset-inline-end: 0;
   }
+
   &:hover {
-    color: var(--black);
-    background-color: var(--base-color);
+    color: #ffffff;
+    background-color: #009639;
+
     &::before,
     &::after {
       width: 0%;

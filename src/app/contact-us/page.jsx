@@ -1,9 +1,9 @@
 import BreadcrumbOne from "@/components/BreadcrumbOne";
 import ContactUsInner from "@/components/ContactUsInner";
-import FooterOne from "@/components/FooterOne";
-import HeaderOne from "@/components/HeaderOne";
+import FooterFour from "@/components/FooterFour";
+import HeaderFour from "@/components/HeaderFour";
 import Preloader from "@/components/Preloader";
-import TopBarOne from "@/components/TopBarOne";
+import TopBarFour from "@/components/TopBarFour";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
@@ -22,11 +22,11 @@ const page = () => {
         {/* CustomCursor  */}
         <CustomCursor />
 
-        {/* TopBarOne */}
-        <TopBarOne />
+        {/* TopBarFour */}
+        <TopBarFour />
 
         {/* HeaderOne */}
-        <HeaderOne />
+        <HeaderFour />
 
         {/* BreadcrumbOne */}
         <BreadcrumbOne title='Contact Us' />
@@ -35,7 +35,7 @@ const page = () => {
         <ContactUsInner />
 
         {/* FooterOne */}
-        <FooterOne />
+        <FooterFour />
       </section>
     </AOSWrap>
   );
